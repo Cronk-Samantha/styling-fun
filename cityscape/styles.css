@@ -93,3 +93,29 @@ body {
     height: 48%;
     background-color: var(--building-color4);
 }
+
+/* FOREGROUND BUILDINGS. */
+.foreground-b1 {
+    width: 10%;
+    height: 40%;
+}
+
+.foreground-b2 {
+    width: 8%;
+    height: 45%;
+}
+
+.foreground-b3 {
+    width: 11%;
+    height: 38%;
+}
+
+.foreground-b4 {
+    width: 12%;
+    height: 48%;
+}
+
+.foreground-b5 {
+    width: 10%;
+    height: 37%;
+}
