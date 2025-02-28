@@ -98,24 +98,29 @@ body {
 .foreground-b1 {
     width: 10%;
     height: 40%;
+    background-color: var(--building-color1);
 }
 
 .foreground-b2 {
     width: 8%;
     height: 45%;
+    background-color: var(--building-color2);
 }
 
 .foreground-b3 {
     width: 11%;
     height: 38%;
+    background-color: var(--building-color4);
 }
 
 .foreground-b4 {
     width: 12%;
     height: 48%;
+    background-color: var(--building-color1);
 }
 
 .foreground-b5 {
     width: 10%;
     height: 37%;
+    background-color: var(--building-color5);
 }
