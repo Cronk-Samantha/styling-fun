@@ -1,3 +1,18 @@
+:root {
+    --building-color1: #9B2226;
+    --building-color2: #827081;
+    --building-color3: #CC59D2;
+    --building-color4: #47A8BD;
+    --building-color5: #E8FFB7;
+    
+    /* 'accent color' refers to either the window color or a complimentary color for gradients */
+    --accent-color1: #A5907E;
+    --accent-color2: #AEA3B0;
+    --accent-color3: #2B2D42;
+    --accent-color4: #F5E663;
+    --accent-color5: #C4F5FC;
+}
+
 * {
     box-sizing: border-box;
     border: 1px solid black;
