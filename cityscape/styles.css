@@ -33,13 +33,41 @@ body {
     align-items: flex-end;
 }
 
+.stacked-roof {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* BACKGROUND BUILDINGS. */
 /* background-b# reads as background-building #. */
 .background-b1 {
     width: 9%;
-    height: 52%;
+    height: 62%;
+}
+
+.background-b1a {
+    width: 4%;
+    height: 10%;
     background-color: var(--building-color4);
+}
+
+.background-b1b {
+    width: 80%;
+    height: 8%;
+    background-color: var(--building-color4);
+}
+
+.background-b1c {
+    width: 100%;
+    height: 82%;
+    background: repeating-linear-gradient(
+        90deg,
+        var(--building-color4),
+        var(--building-color4) 3%,
+        var(--accent-color4) 3%,
+        var(--accent-color4) 6%
+    );
 }
 
 .window-bb4 {
@@ -52,12 +80,6 @@ body {
     width: 9%;
     height: 54%;
     background-color: var(--building-color5);
-}
-
-.stacked-roof {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .background-b3 {
