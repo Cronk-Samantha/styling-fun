@@ -1,16 +1,16 @@
 :root {
-    --building-color1: #9B2226;
-    --building-color2: #827081;
-    --building-color3: #CC59D2;
-    --building-color4: #47A8BD;
-    --building-color5: #E8FFB7;
+    --building-color1: #e76f51;
+    --building-color2: #C792DF;
+    --building-color3: #f4acb7;
+    --building-color4: #55917F;
+    --building-color5: #4682B4;
     
     /* 'accent color' refers to either the window color or a complimentary color for the building */
-    --accent-color1: #A5907E;
-    --accent-color2: #AEA3B0;
-    --accent-color3: #2B2D42;
-    --accent-color4: #F5E663;
-    --accent-color5: #C4F5FC;
+    --accent-color1: #f4a261;
+    --accent-color2: #DCABDF;
+    --accent-color3: #ffcad4;
+    --accent-color4: #6BAB90;
+    --accent-color5: #B0C4DE;
 }
 
 * {
@@ -109,7 +109,7 @@ body {
 .foreground-b1 {
     width: 10%;
     height: 40%;
-    background-color: var(--building-color1);
+    background-color: var(--building-color2);
     display: flex;
     flex-wrap: wrap;
     gap: 2%;
@@ -120,8 +120,7 @@ body {
 .window-fb1 {
     width: 40%;
     height: 10%;
-    border: 1px solid black;
-    background-color: var(--accent-color1);
+    background-color: var(--accent-color2);
 }
 
 .foreground-b2 {
