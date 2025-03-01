@@ -40,12 +40,9 @@ body {
     width: 9%;
     height: 52%;
     background-color: var(--building-color4);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
-.window-bb1 {
+.window-bb4 {
     width: 5%;
     height: 75%;
     background-color: var(--accent-color4);
@@ -57,12 +54,15 @@ body {
     background-color: var(--building-color5);
 }
 
-.background-b3 {
-    width: 10%;
-    height: 70%;
+.stacked-roof {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.background-b3 {
+    width: 10%;
+    height: 70%;
 }
 
 .background-b3a {
@@ -97,9 +97,12 @@ body {
 }
 
 .background-b4 {
-    width: 11%;
-    height: 48%;
+    width: 10%;
+    height: 50%;
     background-color: var(--building-color4);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 /* FOREGROUND BUILDINGS. */
