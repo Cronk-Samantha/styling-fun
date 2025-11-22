@@ -20,7 +20,7 @@ body {
     overflow: hidden;
 }
 
-.background {
+.background, .foreground {
     width: 100%;
     height: 100%;
     display: flex;
@@ -39,7 +39,7 @@ body {
 /* BACKGROUND BUILDINGS. "BB" STANDS FOR BACKGROUND BUILDING & "B" STANDS FOR BACKGROUND */
 
 .b-building1 {
-    width: 20%;
+    width: 10%;
     height: 70%;
     background: var(--building-color1);
 }
@@ -51,8 +51,8 @@ body {
 }
 
 .b-building2 {
-    width: 22%;
-    height: 80%;
+    width: 10%;
+    height: 65%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,15 +87,19 @@ body {
 }
 
 .b-building3 {
-    width: 17%;
-    height: 68%;
+    width: 10%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .bb3a {
     width: 0;
-    border-left: 8vw solid transparent;
-    border-right: 8vw solid transparent;
-    border-bottom: 8vh solid var(--building-color3);
+    border-left: 5vw solid transparent;
+    border-right: 5vw solid transparent;
+    border-bottom: 5vh solid var(--building-color3);
 }
 
 .bb3b {
@@ -105,8 +109,8 @@ body {
 }
 
 .b-building4 {
-    width: 22%;
-    height: 84%;
+    width: 11%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -140,4 +144,31 @@ body {
         var(--building-color4) 35%,
         var(--window-color4)
     );
+}
+
+/* FOREGROUND BUILDINGS */
+
+.f-building1 {
+    width: 10%;
+    height: 55%;
+}
+
+.f-building2 {
+    width: 10%;
+    height: 40%;
+}
+
+.f-building3 {
+    width: 10%;
+    height: 42%;
+}
+
+.f-building4 {
+    width: 8%;
+    height: 45%;
+}
+
+.f-building5 {
+    width: 10%;
+    height: 33%;
 }
