@@ -1,3 +1,14 @@
+:root {
+    --building-color1: #ff5858;
+    --building-color2: #07beb8;
+    --building-color3: #f9dc5c;
+    --building-color4: #09a6f3;
+    --window-color1: #ffc8c8;
+    --window-color2: #68d8d6;
+    --window-color3: #fae588;
+    --window-color4: #07c8f9;
+}
+
 * {
     box-sizing: border-box;
     border: 1px solid black;
@@ -19,56 +30,114 @@ body {
     top: 0;
 }
 
+.window-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* BACKGROUND BUILDINGS. "BB" STANDS FOR BACKGROUND BUILDING & "B" STANDS FOR BACKGROUND */
+
 .b-building1 {
     width: 20%;
     height: 70%;
+    background: var(--building-color1);
+}
+
+.bb1-window {
+    width: 9%;
+    height: 80%;
+    background-color: var(--window-color1);
 }
 
 .b-building2 {
     width: 22%;
-    height: 65%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.bb2a {
+    width: 3%;
+    height: 10%;;
+    background-color: black;
+}
+
+.bb2b {
+    width: 50%;
+    height: 8%;
+    background-color: var(--building-color2);
+}
+
+.bb2c {
+    width: 90%;
+    height: 9%;
+    background-color: var(--building-color2);
+}
+
+.bb2d {
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(
+        var(--building-color2),
+        var(--window-color2)
+    );
 }
 
 .b-building3 {
     width: 17%;
-    height: 58%;
+    height: 68%;
+}
+
+.bb3a {
+    width: 0;
+    border-left: 8vw solid transparent;
+    border-right: 8vw solid transparent;
+    border-bottom: 8vh solid var(--building-color3);
+}
+
+.bb3b {
+    width: 100%;
+    height: 100%;
+    background-color: var(--building-color3);
 }
 
 .b-building4 {
     width: 22%;
-    height: 64%;
-}
-
-.foreground {
-    width: 100%;
-    height: 100%;
-    position: absolute;
+    height: 84%;
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.f-building1 {
-    width: 12%;
-    height: 47%;
+.bb4a {
+    width: 75%;
+    height: 8%;
+    background-color: var(--building-color4);
 }
 
-.f-building2 {
-    width: 15%;
-    height: 45%;
+.bb4b {
+    width: 80%;
+    height: 8%;
+    background-color: var(--building-color4);
 }
 
-.f-building3 {
-    width: 12%;
-    height: 38%;
+.bb4c {
+    width: 90%;
+    height: 8%;
+    background-color: var(--building-color4);
 }
 
-.f-building4 {
-    width: 18%;
-    height: 42%;
-}
 
-.f-building5 {
-    width: 11%;
-    height: 40%;
+.bb4d {
+    width: 100%;
+    height: 90%;
+    background: linear-gradient(
+        var(--building-color4) 0%,
+        var(--building-color4) 35%,
+        var(--window-color4)
+    );
 }
