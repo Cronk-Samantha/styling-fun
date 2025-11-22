@@ -320,3 +320,30 @@ body {
         var(--window-color1) 30%
     )
 }
+
+@media screen and (max-width: 900px) {
+    :root {
+    --building-color1: #000;
+    --building-color2: #000;
+    --building-color3: #000;
+    --building-color4: #000;
+    --building-color5: #000;
+    --building-color6: #000;
+    --window-color1: #3c096c;
+    --window-color2: #023e8a;
+    --window-color3: #004b23;
+    --window-color4: #b9375e;
+    --window-color5: #004b23;
+    --window-color6: #6e1423;        
+    }
+
+    .sky {
+    background: radial-gradient(
+        closest-corner circle at 15% 15%,
+        #ccc,
+        #ccc 20%,
+        #343434 21%,
+        #232323 100%
+    );
+    }
+}
