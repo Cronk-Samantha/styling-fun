@@ -1,15 +1,15 @@
 :root {
-    --building-color1: #ff5858;
+    --building-color1: #b388eb;
     --building-color2: #07beb8;
     --building-color3: #f9dc5c;
-    --building-color4: #09a6f3;
-    --building-color5: #a8c256;
+    --building-color4: #f08080;
+    --building-color5: #60d394;
     --building-color6: #ac1c1e;
-    --window-color1: #ffc8c8;
+    --window-color1: #f7aef8;
     --window-color2: #68d8d6;
     --window-color3: #F5CC14;
-    --window-color4: #2DE1C2;
-    --window-color5: #bbd686;
+    --window-color4: #f8ad9d;
+    --window-color5: #aaf683;
     --window-color6: #dd2c2f;
 }
 
@@ -43,6 +43,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.sky {
+    background: radial-gradient(
+    closest-corner circle at 15% 15%,
+    #ffcf33,
+    #ffcf33 20%,
+    #ffff66 21%,
+    #C2F0FF 100%
+    );
 }
 
 /* BACKGROUND BUILDINGS. "BB" STANDS FOR BACKGROUND BUILDING & "B" STANDS FOR BACKGROUND */
@@ -185,7 +195,7 @@ body {
     height: 15%;
     border-radius: 50%;
     margin: 10%;
-    background-color: var(--window-color2);
+    background-color: var(--window-color4);
 }
 
 /* FOREGROUND BUILDINGS */
