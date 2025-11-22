@@ -3,10 +3,14 @@
     --building-color2: #07beb8;
     --building-color3: #f9dc5c;
     --building-color4: #09a6f3;
+    --building-color5: #a8c256;
+    --building-color6: #ac1c1e;
     --window-color1: #ffc8c8;
     --window-color2: #68d8d6;
     --window-color3: #fae588;
     --window-color4: #07c8f9;
+    --window-color5: #bbd686;
+    --window-color6: #d02224;
 }
 
 * {
@@ -151,6 +155,19 @@ body {
 .f-building1 {
     width: 10%;
     height: 55%;
+    background: repeating-linear-gradient(
+        var(--building-color5),
+        var(--building-color5) 5%,
+        transparent 5%,
+        transparent 10%
+    ), 
+    repeating-linear-gradient(
+        90deg,
+        var(--building-color5),
+        var(--building-color5) 12%,
+        var(--window-color5) 12%,
+        var(--window-color5) 44%
+    );
 }
 
 .f-building2 {
